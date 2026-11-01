@@ -1,0 +1,166 @@
+@media(max-width:480px) {
+    .cabecera {
+        padding-inline: 15px;
+    }
+
+    i.icono_menu {
+        display: inline-block;
+    }
+
+    .btn_login {
+        display: none;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        margin-top: 15px;
+        background-color: var(--azul_oscuro);
+        padding: 15px 20px;
+        border-radius: 8px;
+    }
+
+    .contenedor_menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        width: 100%;
+    }
+
+    .contenedor_menu li {
+        width: 100%;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+    }
+
+    .enlace_menu {
+        display: block;
+        padding: 12px 0;
+        color: var(--blanco);
+        width: 100%;
+    }
+
+    .seccion_hero {
+        padding-block: 20px 50px;
+    }
+
+    .contenedor_hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .contenido_hero h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .contenido_hero p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-inline: auto;
+    }
+
+    .seccion_historia {
+        padding-block: 50px 25px;
+    }
+
+    .seccion_historia h2 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+
+    .seccion_historia p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .seccion_prologo {
+        flex-direction: column-reverse;
+        gap: 35px;
+        padding-block: 30px;
+    }
+
+    .contenido_prologo h2 {
+        font-size: 28px;
+        margin-bottom: 18px;
+    }
+
+    .contenido_prologo p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .seccion_capitulo {
+        flex-direction: column;
+        gap: 35px;
+        padding-block: 30px;
+    }
+
+    .contenido_capitulo h2 {
+        font-size: 28px;
+        margin-bottom: 18px;
+    }
+
+    .contenido_capitulo p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .seccion_video_llamada {
+        flex-direction: column-reverse;
+        gap: 35px;
+        padding-block: 30px;
+    }
+
+    .contenido_video_llamada h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 18px;
+    }
+
+    .contenido_video_llamada p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .marco_video {
+        width: 100%;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .seccion_chat_grupal {
+        padding-block: 30px 60px;
+    }
+
+    .caja_oscura {
+        flex-direction: column;
+        padding: 35px 20px;
+        gap: 30px;
+    }
+
+    .contenido_chat h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 18px;
+    }
+
+    .contenido_chat p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .marco_video_chat {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding-inline: 15px;
+    }
+}
+
